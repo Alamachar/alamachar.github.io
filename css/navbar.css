@@ -1,0 +1,19 @@
+.navbar{
+    border: #B0B0C8 double 6px;
+    border-radius: 20px;
+    background-color: #E8E7FF;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  .navbar-brand{
+    color: #324B4C;
+   }
+  #bootstrap-show-notification-container{
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    margin-left: 1rem;
+    z-index: 100;
+}

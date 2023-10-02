@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+*{
+    margin: 9;
+	padding: 10;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+ /*Esto define el modulo superior de enlaces*/
+#Indice {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    text-transform: uppercase;
+   	height: 70px;
+    margin: 15px;
+    font-size: 20px;
+    display: flex;
+    border:  6px double #B0B0C8;
+    background-color: #E8E7FF;
+    border-radius: 20px;
+    list-style: none;
+    justify-content: space-around;
+}
+.Indice{
+    text-decoration: none;
+    color: #324B4C;
+    font-weight: 900;
+    border: 3px solid #7AB5B8;
+    border-radius: 5px;
+    box-sizing: content-box;  
+    background-color: #D3EFF0;
+    padding: 10px;
+}
+[indice="encima"]:hover {
+    color: red;
+    border: double 3px black;
+}
+/*----------------------------------------------------*/
+/*Esto define el formato de los modulos base*/
+.Columna {
+    color: black;
+    list-style: none;
+    border: 5px solid white;
+    background-color: white;
+    margin: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    gap: 5px;
+    width: 250px;
+    text-align: center;
+    height: 650px;
+    box-sizing: content-box;
+    border-radius: 32px;
+    float: left;
+}
+/*-----------------------------------------------------*/
+/*Esto define el modulo de musica*/
+#Musica {
+    background-color: rgb(0, 10, 10);
+    color: aliceblue;
+    margin-top: 50;
+    width: 280px;
+    height: 650px;
+}
+.musica {
+    margin-top: 10px;
+    border: 1px solid white;
+}
+/*------------------------------------*/
+/*Esto define el modulo principal*/
+#Principal {
+    font-size: 30px;
+    width: 500px;
+    height: auto;
+    float: right;
+    text-align: center;
+    align-items: center;
+    border:  6px double #B0B0C8;
+    background-color: #E8E7FF;
+    font-weight: 900;    
+}
+/*--------------------------------------------------*/

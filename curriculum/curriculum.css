@@ -1,0 +1,46 @@
+* {
+  margin: 9;
+  padding: 10;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+/*----------------------------------------------------*/
+/*Esto define el formato del modulo de informacion principal*/
+#Datos {
+  background-color: #e6f0f0;
+  width: auto;
+  outline: double 10px #386668;
+  max-width: 910px;
+  height: auto;
+  border: 5px dashed #94b0b2;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+#foto {
+  border: double black 10px;
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 80px;
+  margin-left: 65px;
+  margin-right: 80px;
+  margin-top: 65px;
+  height: 250px;
+  width: 250px;
+}
+h1 {
+  color: red;
+}
+.Columna {
+  color: black;
+  margin: 30px;
+  font-size: 20px;
+  padding: 20px;
+  box-sizing: content-box;
+  border-radius: 32px;
+}
+p {
+  font-size: 20px;
+  font-weight: 900;
+}
