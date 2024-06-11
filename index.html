@@ -35,18 +35,6 @@
     .page-section {
       padding: 40px 0; /* Modificar el espacio vertical entre secciones */
     }
-    /* Fotografias */
-    .mi-borde {
-      border-width: 8px; /* Grosor del borde */
-      border-color: #000; /* Color del borde */
-      border-style: double; /* Estilo del borde */
-      border-radius: 10px; /* Radio de las esquinas */
-    }
-    .card-img-top {
-      height: 200px; /* Establece la altura deseada */
-      width: 100%; /* Establece el ancho al 100% del contenedor */
-      object-fit: cover; /* Ajusta la imagen dentro del contenedor sin deformarla */
-    }
   </style>
 </head>
 <body>
@@ -91,9 +79,6 @@
         <li class="nav-item">
           <a class="nav-link active" id="proyectos-tab" data-toggle="tab" href="#proyectos" role="tab" aria-controls="proyectos" aria-selected="true">Proyectos 🚀</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" id="fotografias-tab" data-toggle="tab" href="#fotografias" role="tab" aria-controls="fotografias" aria-selected="false">Fotografías 📷</a>
-        </li>
       </ul>
       <div class="tab-content" id="myTabContent">
         <!-- Contenido de la pestaña Proyectos -->
@@ -110,54 +95,20 @@
                   </div>
                 </div>
               </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="gallery.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Gallery</h5>
+                    <p class="card-text">Pagina web con fotografias que he realizado.</p>
+                    <a href="https://gallery.pablomp.es" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
               <!-- Tarjetas de proyectos aquí -->
             </div>
           </div>
-        </div>
-        <!-- Contenido de la pestaña Fotografías -->
-        <div class="tab-pane fade" id="fotografias" role="tabpanel" aria-labelledby="fotografias-tab">
-          <div class="container">
-            <h2 class="text-center mt-0">Fotografías destacadas</h2>
-            <!-- Carrusel principal -->
-            <div id="carruselPrincipal" class="carousel slide d-block mx-auto" data-ride="carousel" style="max-width: 600px">
-              <!-- Indicadores -->
-              <ul class="carousel-indicators">
-                <li data-target="#carruselPrincipal" data-slide-to="0" class="active"></li>
-                <li data-target="#carruselPrincipal" data-slide-to="1"></li>
-                <li data-target="#carruselPrincipal" data-slide-to="2"></li>
-                <!-- Agrega más indicadores según la cantidad de imágenes -->
-              </ul>
-              <!-- Imágenes del carrusel -->
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="fotografias/IMG_1824.JPG" class="d-block mx-auto" alt="Imagen 1" style="max-height: 400px; object-fit: cover">
-                </div>
-                <div class="carousel-item">
-                  <img src="fotografias/IMG_1870.JPG" class="d-block mx-auto" alt="Imagen 2" style="max-height: 400px; object-fit: cover">
-                </div>
-                <div class="carousel-item">
-                  <img src="fotografias/IMG_3280.JPG" class="d-block mx-auto" alt="Imagen 3" style="max-height: 400px; object-fit: cover">
-                </div>
-                <!-- Agrega más imágenes según sea necesario -->
-              </div>
-              <!-- Controles del carrusel -->
-              <a class="carousel-control-prev" href="#carruselPrincipal" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-              </a>
-              <a class="carousel-control-next" href="#carruselPrincipal" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-              </a>
-            </div>
-            <!-- Galería de imágenes con marco de fotos utilizando clases CSS personalizadas -->
-            <div class="container mt-5">
-              <h2 class="text-center">Galería de Imágenes</h2>
-              <div class="row">
-              </div>
-            </div>
-          </div>
-        </div>
+        </div>      
       </div>
     </div>
   </section>
