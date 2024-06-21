@@ -105,6 +105,16 @@
                   </div>
                 </div>
               </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="wiki.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Wiki</h5>
+                    <p class="card-text">Pagina web con documentacion de proyectos que he realizado.</p>
+                    <a href="https://gallery.pablomp.es" class="btn btn-primary">Ver más</a>
+                  </div>
+                </div>
+              </div>
               <!-- Tarjetas de proyectos aquí -->
             </div>
           </div>
@@ -118,76 +128,14 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <p>&copy; 2024 Pablo MP. Todos los derechos reservados. 🌟</p>
-        <p>Las fotografías en este sitio están protegidas por la licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
       </div>
     </div>
   </div>
 </footer>
-
-
-
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    // Nombres de archivo de las imágenes
-    var imageNames = [
-      "20231208_215459.jpg",
-      "20240127_182822.jpg",
-      "IMG_0175.JPG",
-      "IMG_1308.JPG",
-      "IMG_1824.JPG",
-      "IMG_1870.JPG",
-      "IMG_1974.JPG",
-      "IMG_2166.JPG",
-      "IMG_2309.JPG",
-      "IMG_3216.JPG",
-      "IMG_3259.JPG",
-      "IMG_3280.JPG",
-      "IMG_3448.JPG",
-      "IMG_3510.JPG",
-      "IMG_3536.JPG",
-      "IMG_3597.JPG",
-      "IMG_3765.JPG",
-      "IMG_3766.JPG",
-      "IMG_3770.JPG",
-      "IMG_3800.JPG",
-      "IMG_3809.JPG",
-      "IMG_3856.JPG",
-      "IMG_3877.JPG",
-      "IMG_3878.JPG",
-      "IMG_3879.JPG",
-      "IMG_3888.JPG",
-      "IMG_3997.JPG",
-      "IMG_3998.JPG",
-      "IMG_4004.JPG",
-      "IMG_4005.JPG",
-      "IMG_0022.JPG",
-      "IMG_0386.jpg",
-      "IMG_0447.jpg",
-      "IMG_0469.JPG"
-    ];
-
-    // Función para crear los elementos de imagen y agregarlos a la galería
-    function createImageElements() {
-      var galleryContainer = document.querySelector("#fotografias .container .row");
-      imageNames.forEach(function(imageName) {
-        var imageElement = document.createElement("div");
-        imageElement.classList.add("col-md-4", "mb-4");
-        imageElement.innerHTML = `
-          <div class="card mi-borde">
-            <img src="fotografias/${imageName}" class="card-img-top" alt="${imageName}" style="cursor: pointer" onclick="window.open(this.src);">
-          </div>
-        `;
-        galleryContainer.appendChild(imageElement);
-      });
-    }
-
-    // Llamar a la función para crear los elementos de imagen cuando se cargue la página
-    window.onload = function() {
-      createImageElements();
-    };
   </script>
 </body>
 </html>
