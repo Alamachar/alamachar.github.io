@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,35 +9,54 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <style>
+    html {
+      overflow: scroll;
+    }
+
+    ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+      /* Make scrollbar transparent */
+    }
+
     .masthead {
       height: 100vh;
       background-image: url("header.gif");
       background-size: cover;
       background-position: center;
     }
+
     .page-section {
       padding: 100px 0;
     }
+
     /* Estilo para el color del texto del encabezado */
     .masthead h1,
     .masthead p {
-      color: #212529; /* Color de texto #212529 */
+      color: #212529;
+      /* Color de texto #212529 */
     }
+
     /* Estilo para hacer el texto más grueso */
     .masthead p {
-      font-weight: 600; /* Aumentar el grosor de la fuente */
+      font-weight: 600;
+      /* Aumentar el grosor de la fuente */
     }
+
     /* Estilos para los títulos en la sección Acerca de */
     .about-title {
       font-weight: bold;
       font-size: 20px;
       margin-bottom: 10px;
     }
+
     .page-section {
-      padding: 40px 0; /* Modificar el espacio vertical entre secciones */
+      padding: 40px 0;
+      /* Modificar el espacio vertical entre secciones */
     }
   </style>
 </head>
+
 <body>
   <!-- Encabezado (Sección de Inicio) -->
   <header id="home" class="masthead position-relative">
@@ -57,27 +77,38 @@
       <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <p class="lead">Bienvenido a mi portafolio. Soy Pablo MP, un joven de 18 años con pasión por la informática y un gran interés en aprender y desarrollarme en este campo.</p>
+          <p class="lead">Bienvenido a mi portafolio. Soy Pablo MP, un joven de 18 años con pasión por la informática y
+            un gran interés en aprender y desarrollarme en este campo.</p>
           <p class="lead about-title">Mi Formación Académica 📚</p>
-          <p class="lead">Poseo un Grado Medio en Administración de Sistemas Microinformáticos en Red (SMR) en modalidad dual, donde adquirí experiencia práctica y habilidades técnicas en un entorno empresarial real. Actualmente estoy cursando el Grado Superior en Administración de Sistemas Informáticos en Red (ASIR), lo que me permite seguir ampliando mis conocimientos y competencias en áreas como la gestión de redes, la seguridad informática y la administración de sistemas.</p>
+          <p class="lead">Poseo un Grado Medio en Administración de Sistemas Microinformáticos en Red (SMR) en modalidad
+            dual, donde adquirí experiencia práctica y habilidades técnicas en un entorno empresarial real. Actualmente
+            estoy cursando el Grado Superior en Administración de Sistemas Informáticos en Red (ASIR), lo que me permite
+            seguir ampliando mis conocimientos y competencias en áreas como la gestión de redes, la seguridad
+            informática y la administración de sistemas.</p>
           <p class="lead about-title">Mi Experiencia Laboral 🔧</p>
-          <p class="lead">Durante mi formación, tuve la oportunidad de realizar prácticas en el Hospital Comarcal de la Axarquía, donde adquirí experiencia en la gestión y mantenimiento de infraestructuras informáticas críticas para el funcionamiento del centro de salud.</p>
+          <p class="lead">Durante mi formación, tuve la oportunidad de realizar prácticas en el Hospital Comarcal de la
+            Axarquía, donde adquirí experiencia en la gestión y mantenimiento de infraestructuras informáticas críticas
+            para el funcionamiento del centro de salud.</p>
           <p class="lead about-title">Hobbies 🎨</p>
-          <p class="lead">De vez en cuando disfruto de la fotografía como un hobby. En este portafolio tambien podras ver algunas de mis fotografias</p>
+          <p class="lead">De vez en cuando disfruto de la fotografía como un hobby. En este portafolio tambien podras
+            ver algunas de mis fotografias</p>
           <hr class="my-4">
-          <p class="lead">Puedes contactarme a través de mi correo electrónico: 📧 <a href="mailto:pmunpal015@gmail.com">pmunpal015@gmail.com</a></p>
-          <p class="lead">Aqui puedes encontrar mi <a href="https://github.com/Alamachar" target="_blank">perfil de github</a></p>
+          <p class="lead">Puedes contactarme a través de mi correo electrónico: 📧 <a
+              href="mailto:pmunpal015@gmail.com">pmunpal015@gmail.com</a></p>
+          <p class="lead">Aqui puedes encontrar mi <a href="https://github.com/Alamachar" target="_blank">perfil de
+              github</a></p>
         </div>
       </div>
     </div>
   </section>
-  
+
   <!-- Sección Pestañas -->
   <section class="page-section bg-light" id="pestanas">
     <div class="container">
       <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="proyectos-tab" data-toggle="tab" href="#proyectos" role="tab" aria-controls="proyectos" aria-selected="true">Proyectos 🚀</a>
+          <a class="nav-link active" id="proyectos-tab" data-toggle="tab" href="#proyectos" role="tab"
+            aria-controls="proyectos" aria-selected="true">Proyectos 🚀</a>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
@@ -118,24 +149,25 @@
               <!-- Tarjetas de proyectos aquí -->
             </div>
           </div>
-        </div>      
+        </div>
       </div>
     </div>
   </section>
- <!-- Pie de página -->
- <footer class="bg-dark text-light py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p>&copy; 2024 Pablo MP. Todos los derechos reservados. 🌟</p>
+  <!-- Pie de página -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2024 Pablo MP. Todos los derechos reservados. 🌟</p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </script>
 </body>
+
 </html>
